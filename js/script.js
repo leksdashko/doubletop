@@ -1,13 +1,15 @@
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+const smoother = ScrollSmoother.create({
+  content: '#smooth-content',
+  smooth: 1.5,
+  effects: true,
+  normalizeScroll: true,
+  ignoreMobileResize: true,
+  smoothTouch: 0.1,
+});
+
 const topNavigation = document.getElementById('top-navigation');
 const isMobile = window.outerWidth < 778;
-const scrollObj = {
-	wrapper: '#smooth-wrapper',
-	content: '#smooth-content',
-	effects: true,
-	ignoreMobileResize: true,
-	smoothTouch: true,
-	smooth: 2
-};
 
 window.addEventListener('scroll', () => {
 	document.body.style.cssText += `--ScrollTop: ${this.scrollY}px`; 
@@ -18,9 +20,6 @@ window.addEventListener('scroll', () => {
 		topNavigation.classList.remove('filled');
 	}
 });
-
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
-const smoother = ScrollSmoother.create(scrollObj);
 
 gsap.from("#about-i1", {
 	scrollTrigger : {
