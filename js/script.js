@@ -4,7 +4,7 @@ const scrollObj = isMobile ? {
 	effects: true,
 	smooth: 2,
 	ignoreMobileResize: true,
-	smoothTouch: true
+	smoothTouch: false
 } : {
 	wrapper: '#smooth-wrapper',
 	content: '#smooth-content',
