@@ -1,14 +1,11 @@
 const topNavigation = document.getElementById('top-navigation');
 const isMobile = window.outerWidth < 778;
-const scrollObj = isMobile ? {
-	effects: true,
-	smooth: 2,
-	ignoreMobileResize: true,
-	smoothTouch: false
-} : {
+const scrollObj = {
 	wrapper: '#smooth-wrapper',
 	content: '#smooth-content',
 	effects: true,
+	ignoreMobileResize: true,
+	smoothTouch: true,
 	smooth: 2
 };
 
