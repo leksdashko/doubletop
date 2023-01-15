@@ -3,7 +3,6 @@ const smoother = ScrollSmoother.create({
   content: '#smooth-content',
   smooth: 1.5,
   effects: true,
-  normalizeScroll: true,
   ignoreMobileResize: true,
   smoothTouch: 0.1,
 });
