@@ -8,8 +8,6 @@ const smoother = ScrollSmoother.create({
   smoothTouch: 0.1,
 });
 
-ScrollTrigger.normalizeScroll(true); 
-
 const topNavigation = document.getElementById('top-navigation');
 const isMobile = window.outerWidth < 778;
 
