@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DoubleTop Education</title>
+
+	<!-- SEO Tags -->
+	<meta property="og:title" content="DoubleTop Education"/>
+	<meta property="og:description" content=""/>
+	<meta name="description" content="">
+	<meta property="og:image" content=""/>
+
+	<!-- FavIcon -->
+	<link rel="icon" type="image/ico" href="img/favicon.ico">
+	<link rel="icon" type="image/svg" sizes="128x128" href="img/favicon.svg">
+	<link rel="icon" type="image/svg" sizes="96x96" href="img/favicon.svg">
+	<link rel="icon" type="image/svg" sizes="32x32" href="img/favicon.svg">
+	<link rel="icon" type="image/svg" sizes="16x16" href="img/favicon.svg">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+
+	<script src="libs/gsap/gsap.min.js" defer></script>
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+	<script src="js/bootstrap.bundle.min.js" defer></script>
+	<script src="js/script.js" defer></script>
+</head>
+<body>
+<nav class="navbar" id="top-navigation">
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-auto d-flex justify-content-start align-items-center">
+					<a class="logo" href="#home">
+							<img src="img/logo.svg" alt="">
+					</a>
+				</div>
+				<div class="main-menu col-auto d-none d-lg-flex justify-content-start align-items-center">
+					<ul class="list-inline justify-content-centerv align-items-center m-0">
+						<li class="list-inline-item">
+								<a class="" href="#course">Програма</a>
+						</li>
+						<li class="list-inline-item">
+								<a class="" href="#algorithm">Формат</a>
+						</li>
+						<li class="list-inline-item">
+								<a class="" href="#team">Команда</a>
+						</li>
+						<li class="list-inline-item">
+								<a class="" href="#faq">FAQ</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-auto d-flex justify-content-end align-items-center ms-auto">
+					<ul class="list-inline justify-content-centerv align-items-center m-0">
+						<li class="list-inline-item">
+							<a href="#" class="lang-link">UA</a>
+						</li>
+						<li class="list-inline-item active">
+							<a href="#" class="lang-link">RU</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#" class="btn-login">
+								<img src="img/icon-profile.svg" />
+							</a>
+						</li>
+					</ul>
+				</div>
+				<button class="col-auto navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+					<img src="img/burger-menu.svg">
+				</button>
+			</div>
+		</div>
+	</div>
+</nav>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+	<div class="offcanvas-header">
+			<img src="img/logo.svg" class="logo">
+			<button type="button" id="close-mobile-menu" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	</div>
+	<div class="offcanvas-body mobile-menu">
+			<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+				<li class="nav-item">
+					<a class="nav-link" href="#course">Программа</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#team">Команда</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#algorithm">Формат</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#faq">FAQ</a>
+				</li>
+				<li class="">
+					<a href="#" class="dt-btn dt-btn-mobile btn-warning btn-fullwidth mt-4">Авторизація</a>
+				</li>
+			</ul>
+	</div>
+</div>
+
+<div id="smooth-wrapper">
+<div id="smooth-content">
+
+	<header id="home">
+		<div class="container position-relative">
+			<div class="row position-relative">
+				<div class="circle" data-lag="1" style="left: -10%; top: -12%;"></div>
+				<div class="col">
+					<div class="intro-info">
+						<h1>Безкоштовний мінікурс від команди DOUBLETOP</h1>
+						<h2>Разом з нами ви дізнаєтесь основи ринку<br/>і зробите перші кроки у світ крипти і трейдингу</h2>
+						<a class="dt-btn btn-warning" href="#">Зарееструватися на курс</a>
+						<div class="options d-flex justify-content-between">
+							<div class="option">
+								<p>Старт</p>
+								<span>20 січня</span>
+							</div>
+							<div class="option">
+								<p>Тривалість</p>
+								<span>Х днів</span>
+							</div>
+							<div class="option">
+								<p>Всього</p>
+								<span>2000 місць</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="intro-img-bg"></div>
+				<div class="intro-img intro-scene">
+					<div>
+						<a data-lag="0.1" href="https://instagram.com/hexdrunker" target="_blank" class="insta-link insta-link-left">hexdrunker</a>
+						<a data-lag="0.6" href="https://instagram.com/gnat777" target="_blank" class="insta-link insta-link-right">gnat777</a>
+						<img class="bounce" src="img/main-photo.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="team" class="section-about">
+		<div class="container">
+			<div class="row position-relative">
+				<div class="circle" data-lag="1" style="left: -10%; top: 12%;"></div>
+				<div data-lag="1" id="min-coin" class="position-absolute"></div>
+				<div data-lag="1.5" id="mid-coin" class="position-absolute"></div>
+				<div data-lag="2" id="main-coin" class="position-absolute"></div>
+				<div class="col-lg-4">
+					<h3 class="section-title">Команда <span>DoubleTop</span></h3>
+				</div>
+				<div class="col-lg-8">
+					<div data-speed="1.2" class="about-list">
+						<ul>
+							<li id="about-i1">
+								<div>
+									<p><span>01/</span>Ми команда ДаблТоп, створена в 2019 році</p>
+								</div>
+							</li>
+							<li id="about-i2">
+								<div>
+									<p><span>02/</span>Маємо свій криптофонд з капіталізацією 3 млн $</p>
+								</div>
+							</li>
+							<li id="about-i3">
+								<div class="d-md-flex subscribers-section">
+									<p><span>03/</span>Кількість підпісників у </p>
+									<div class="d-flex subscribers-social-flex">
+										<a href="#" target="_blank" class="subscribers-social">
+											<span class="icon">
+												<img src="img/icon-youtube-gold.svg">
+											</span>
+											<span class="subscr-count">65 тис. під.</span>
+										</a>
+										<a href="#" target="_blank" class="subscribers-social">
+											<span class="icon">
+												<img src="img/icon-telegram-gold.svg">
+											</span>
+											<span class="subscr-count">68 тис. під.</span>
+										</a>
+										<a href="#" target="_blank" class="subscribers-social">
+											<span class="icon">
+												<img src="img/icon-instagram-gold.svg">
+											</span>
+											<span class="subscr-count">68 тис. під.</span>
+										</a>
+									</div>
+								</div>
+							</li>
+							<li id="about-i4">
+								<div>
+									<p><span>04/</span>В команді працює більше 40 людей</p>
+								</div>
+							</li>
+							<li id="about-i5">
+								<div>
+									<p><span>05/</span>Топ-1 інфлюенсери за версією Бінанс в 2021 році</p>
+								</div>
+							</li>
+							<li id="about-i6">
+								<div>
+									<p><span>06/</span>Повне навчання прошло більше 1400 учнів</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="circle" data-lag="1" style="right: -10%; bottom: -25%;"></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="forwhom" class="section-forwhom">
+		<div class="container position-relative">
+			<div class="circle" data-lag="1" style="top: 20%; left: -10%;"></div>
+			<h3 class="section-title">
+				Для кого ми створили курс
+			</h3>
+			<div class="d-lg-flex justify-content-between">
+				<div id="forwhom-i1" data-speed="1.1" class="whom-item d-flex">
+					<div class="whom-image whom-item-first">
+						<img src="img/whom-first.png" alt="">
+					</div>
+					<p class="whom-text">
+						Для тих, хто хоче познайомитись із ринком криптовалют, отримати якісну інформацію і відкрити для себе нові можливості заробітку.
+					</p>
+				</div>
+
+				<div id="forwhom-i2" data-speed="1.2" class="whom-item d-flex">
+					<div class="whom-image whom-item-second">
+						<img src="img/whom-second.png" alt="">
+					</div>
+					<p class="whom-text">
+						Для тих, хто хоче освоїти криптобіржу, навчитися безпечно заводити та виводити гроші. Купувати, продавати та зберігати свої активи.
+					</p>
+				</div>
+			</div>
+			<div id="forwhom-i3" class="d-flex justify-content-center">
+				<div class="whom-item whom-item-third d-flex">
+					<div class="whom-image">
+						<img src="img/whom-third.png" alt="">
+					</div>
+					<p class="whom-text">
+						Для тих, хто хоче розібратися з напрямком трейдингу. Навчитися розуміти графік, використовувати TradingView, заробляти не лише на рості, а і на падінні монет. Визначити власний стиль аналізу і торгівлі.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="course" class="section-course">
+		<div class="container position-relative">
+			<div class="circle" data-lag="1" style="top: -200px; left: 50%;"></div>
+			<div class="circle" data-lag="1" style="top: 20%; left: -10%;"></div>
+			<div class="circle" data-lag="1" style="top: 25%; right: -10%;"></div>
+			<h3 class="section-title">Програма Курсу</h3>
+			<div class="row">
+				<div class="col-md-6">
+					<div id="course-i1" class="course-module gold">
+						<h4 class="module-title">Модуль 1. Крипта</h4>
+						<ul>
+							<li>
+								Крипто словник
+							</li>
+							<li>
+								Які направлення існують в крипті
+							</li>
+							<li>
+								Огляд Binance. Купівля Крипти
+							</li>
+							<li>
+								Крипто гаманці
+							</li>
+							<li>
+								Огляд MetaMask
+							</li>
+						</ul>
+						<div class="notice">
+							<span>В результаті я:</span> Знаю які перші кроки зробити, для успішного старту як у крипті, так і в навчанні. Розумію, що таке ризик-менеджмент і як з ним працювати
+						</div>
+					</div>
+					<div id="course-i3" class="module-image"></div>
+				</div>
+				<div id="course-i2" class="col-md-6">
+					<div class="course-module">
+						<h4 class="module-title">Модуль 2. Трейдинг</h4>
+						<ul>
+							<li>
+								Словник трейдера
+							</li>
+							<li>
+								Що таке трейдинг і як на цьому заробляти
+							</li>
+							<li>
+								Знайомство з графіком
+							</li>
+							<li>
+								Огляд та налаштування TradingView
+							</li>
+							<li>
+								Огляд Binance Futures
+							</li>
+							<li>
+								Види аналізу та торговлі
+							</li>
+						</ul>
+						<div class="notice">
+							<span>В результаті я:</span> Знаю які перші кроки зробити, для успішного старту як у крипті, так і в навчанні. Розумію, що таке ризик-менеджмент і як з ним працювати
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="algorithm" class="section-algorithm">
+		<div class="container position-relative">
+			<div class="circle" data-lag="1" style="top: -200px; right: 20%;"></div>
+			<div class="circle" data-lag="1" style="top: 15%; right: -10%;"></div>
+			<div class="circle" data-lag="1" style="top: 15%; right: 35%;"></div>
+			<div class="circle" data-lag="1" style="bottom: -20%; right: -10%;"></div>
+			<h3 class="section-title">Як проходитиме навчання</h3>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="algorithm-list">
+						<ul>
+							<li data-lag="0.1">Зручна платформа з особистим кабінетом</li>
+							<li data-lag="0.2">15 структурованих уроків з текстовим<br/>та відео матеріалом</li>
+							<li data-lag="0.3">Тести для перевірки знань</li>
+							<li data-lag="0.4">Подарунки і призи для найкращих учнів</li>
+						</ul>
+						<a class="dt-btn btn-warning" href="#">Зарееструватися на курс</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="algorithm-images">
+						<div data-title="Призи" class="algorithm-item-wrapper item-wrapper-1">
+							<div class="dt-tooltip">Персональна онлайн-<br/>консультація</div>
+							<div style="background-image: url('img/main-photo.png');" class="algorithm-image-item image-item-1"></div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="algorithm-item-wrapper image-wrapper-2">
+									<div class="dt-tooltip">2 холодних<br/>гаманця Ledger</div>
+									<div style="background-image: url('img/nnsyellow.png');" class="algorithm-image-item image-item-2"></div>
+								</div>
+							</div>
+							<div class="col">
+								<div class="algorithm-item-wrapper image-wrapper-3">
+									<div class="dt-tooltip">Унікальний мерч<br/>від DoubleTop</div>
+									<div style="background-image: url('img/hoodie-blur.png');" class="algorithm-image-item image-item-3"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="testimonials" class="section-testimonials">
+		<div class="container position-relative">
+			<div class="circle" data-lag="1" style="top: 15%; left: -10%;"></div>
+			<h3 class="section-title">Відгуки Учнів Повного Навчання</h3>
+			<div class="row">
+				<div class="col-lg-4">
+					<div id="testimonial1" data-speed="1.1" class="testimonial gold">
+						<div class="testimonial-header">
+							<img src="img/testimonial-1.png" alt="">
+							<span>C.R.E.A.M</span>
+						</div>
+						<p class="testimonial-body">
+							2ТОР - однозначно ТОР. 
+							Если могут быть вопросы то только к себе (не разобрался, не спросил, поленился, не захотел).
+							Подача материала  - годнота лютейшая!
+							Стримы - сказка, которую даже во сне не придумаешь. 
+							Сам материал - х2 ТОР.
+							Но самое ценное это поддержка 24/7  от ребят (это удивило больше всего, не ожидал такой отдачи) и приятный бонус от самих студентов!
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div data-speed="1.2" class="testimonial">
+						<div class="testimonial-header">
+							<img src="img/testimonial-2.png" alt="">
+							<span>buldozer</span>
+						</div>
+						<p class="testimonial-body">
+							Я бы хотел сказать большое спасибо за этот обуч , и всем ребятам , которые сопровождали нас всё обучение . Я пришёл на обуч уже не новичком , но всё равно очень многому научился . Очень круто , что в данном обуче есть не только торговля , но и другие направления , где ты можешь научиться , попробовать и найти тот путь , от которого будешь получать удовольствие ( а если будешь получать удовольствие от того чем занимаешься - то и будет получается получать с этого прибыль ) Мне сам материал очень зашёл , всё расписано простым языком и от а до я . покупке этого обучения...
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div data-speed="1.3" class="testimonial gold">
+						<div class="testimonial-header">
+							<img src="img/testimonial-3.png" alt="">
+							<span>StingFly</span>
+						</div>
+						<p class="testimonial-body">
+							Всем привет! Насчет обучения, тот момент когда инвестировал всего один раз и получил дроп в виде знаний в размере х100000, получил ретродроп в виде постоянного доступа к обучению и знанию, заминтил нфт на вход в самое крутое и прогрессивное комьюнити, участвовал в бесконечном фарме новых идей в многочасовых обсуждениях, поучаствовал в поиске многих драконов:), ну самое главное собираюсь застейкать свое время на будущих потоках.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="testimonials-more text-center position-relative">
+			<div class="circle" data-lag="1" style="top: -50%; left: 35%;"></div>
+			<a class="dt-btn btn-warning" href="#">Відгуки у групі Telegram</a>
+			<p>Решту відгуків ви можете подивитися в групі Telegram. Ми не видаляємо<br/>та не редагуємо відгуки, вони автоматично пересилаються з дискорд-каналу</p>
+		</div>
+	</div>
+
+	<div class="section-notice">
+		<div class="container">
+			<div class="large-notice">
+				<div class="text">
+					<h4>Якщо у вас є проблеми або питання<br/>з реєстрацією на безкоштовний курс</h4>
+					<h5>Напишіть нам і ми з радістю допоможемо вам</h5>
+				</div>
+				<a class="dt-btn btn-black" href="#">Написати нам <img src="img/icon-telegram.svg"></a>
+			</div>
+		</div>
+	</div>
+
+	<div id="faq" class="section-faq">
+		<div class="container position-relative">
+			<div class="circle big" data-lag="1" style="top: 12%; right: -15%;"></div>
+			<div class="circle big" data-lag="1" style="top: 40%; left: -15%;"></div>
+			<h3 class="section-title">FAQ</h3>
+			
+			<div class="accordion" id="accordionExample">
+				<div data-lag="0.1" class="accordion-item">
+					<h2 class="accordion-header" id="headingOne">
+						<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Цей курс для новачків?
+						</button>
+					</h2>
+					<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							Ні, всі уроки, матеріали, доступ до платформи і призи — безкоштовні. Від вас потрібні лише бажання і час.
+						</div>
+					</div>
+				</div>
+				<div data-lag="0.2" class="accordion-item">
+					<h2 class="accordion-header" id="headingTwo">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							Скільки часу займає навчання?
+						</button>
+					</h2>
+					<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							Ні, всі уроки, матеріали, доступ до платформи і призи — безкоштовні. Від вас потрібні лише бажання і час.
+						</div>
+					</div>
+				</div>
+				<div data-lag="0.3" class="accordion-item">
+					<h2 class="accordion-header" id="headingThree">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							У мене залишиться доступ до матеріалів?
+						</button>
+					</h2>
+					<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							Ні, всі уроки, матеріали, доступ до платформи і призи — безкоштовні. Від вас потрібні лише бажання і час.
+						</div>
+					</div>
+				</div>
+				<div data-lag="0.4" class="accordion-item">
+					<h2 class="accordion-header" id="headingFour">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+							Чи маю я щось заплатити за мінікурс?
+						</button>
+					</h2>
+					<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							Ні, всі уроки, матеріали, доступ до платформи і призи — безкоштовні. Від вас потрібні лише бажання і час.
+						</div>
+					</div>
+				</div>
+				<div data-lag="0.5" class="accordion-item">
+					<h2 class="accordion-header" id="headingFive">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+							На мінікурсі є підтримка?
+						</button>
+					</h2>
+					<div data-lag="0.6" id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							Ні, всі уроки, матеріали, доступ до платформи і призи — безкоштовні. Від вас потрібні лише бажання і час.
+						</div>
+					</div>
+				</div>
+				<div data-lag="0.7" class="accordion-item">
+					<h2 class="accordion-header" id="headingSix">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+							Чи є у вас повне навчання?
+						</button>
+					</h2>
+					<div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							Ні, всі уроки, матеріали, доступ до платформи і призи — безкоштовні. Від вас потрібні лише бажання і час.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+					<div class="col d-md-flex">
+							<a href="#" target="_blank" class="dt-btn btn btn-outline">Youtube</a>
+							<a href="#" target="_blank" class="dt-btn btn btn-outline">Telegram</a>
+							<a href="#" target="_blank" class="dt-btn btn btn-outline">Twitter</a>
+					</div>
+					<div class="col d-flex justify-content-end">
+							<a href="#home" class="dt-btn-up">
+									<img src="img/icon-arrow-up.svg" alt="">
+							</a>
+					</div>
+			</div>
+		</div>
+	</footer>
+
+</div>
+</div>
+</body>
+</html>
