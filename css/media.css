@@ -207,17 +207,17 @@
 	#min-coin {
 		left: -50px;
 		top: auto;
-		bottom:20px;
+		bottom:185px;
 	}
 	#mid-coin {
 		left: 45px;
 		top: auto;
-		bottom: -105px;
+		bottom: 30px;
 	}
 	#main-coin {
 		left: auto;
 		right: 235px;
-		bottom: -200px;
+		bottom: -85px;
 	}
 	.section-forwhom .section-title {
     margin-bottom: 70px;
@@ -466,8 +466,14 @@
     width: 250px;
     height: 250px;
 	}
+	.course-module-second{
+		margin-top: 50px;
+	}
 }
 @media only screen and (max-width: 500px) {
+	header {
+    padding-top: 285px;
+	}
 	header .intro-img {
     width: 100%;
     height: 350px;
@@ -491,7 +497,7 @@
 	}
 	header .intro-info {
 		text-align: center;
-    padding-top: 140px;
+    padding-top: 180px;
 	}
 	h1 {
     font-size: 26px;
@@ -519,19 +525,25 @@
     font-size: 14px;
     margin-right: 10px;
 	}
+	#min-coin {
+    left: 0px;
+    bottom: 85px;
+	}
 	#main-coin {
+		right: 95px;
+		bottom: -35px;
     width: 175px;
     height: 150px;
 	}
 	#mid-coin {
     left: 85px;
-    bottom: -85px;
+    bottom: 15px;
 		width: 100px;
     height: 90px;
     background-size: contain;
 	}
 	.section-forwhom {
-    padding: 140px 0 50px;
+    padding: 40px 0 50px;
 	}
 	.section-title {
     font-size: 24px;
@@ -575,7 +587,7 @@
 		top: 150px;
 	}
 	header .intro-info{
-		padding-top: 60px;
+		padding-top: 100px;
 	}
 	h1 {
     font-size: 20px;
@@ -594,8 +606,12 @@
 	.subscribers-social{
 		padding: 0 10px;
 	}
+	#main-coin {
+    right: -20px;
+    bottom: -25px;
+	}
 	#min-coin {
-    left: 130px;
+    left: 0px;
 	}
 	.whom-item{
 		align-items: flex-end;
