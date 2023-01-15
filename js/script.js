@@ -2,7 +2,9 @@ const topNavigation = document.getElementById('top-navigation');
 const isMobile = window.outerWidth < 778;
 const scrollObj = isMobile ? {
 	effects: true,
-	smooth: 2
+	smooth: 2,
+	ignoreMobileResize: true,
+	smoothTouch: true
 } : {
 	wrapper: '#smooth-wrapper',
 	content: '#smooth-content',
@@ -21,7 +23,7 @@ window.addEventListener('scroll', () => {
 });
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
-var smoother = ScrollSmoother.create(scrollObj);
+const smoother = ScrollSmoother.create(scrollObj);
 
 gsap.from("#about-i1", {
 	scrollTrigger : {
