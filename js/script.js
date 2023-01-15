@@ -1,5 +1,6 @@
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 const smoother = ScrollSmoother.create({
+	wrapper: '#smooth-wrapper',
   content: '#smooth-content',
   smooth: 1.5,
   effects: true,
@@ -7,12 +8,13 @@ const smoother = ScrollSmoother.create({
   smoothTouch: 0.1,
 });
 
+//ScrollTrigger.normalizeScroll(true);
+
 const topNavigation = document.getElementById('top-navigation');
 const isMobile = window.outerWidth < 778;
 
 window.addEventListener('scroll', () => {
-	document.body.style.cssText += `--ScrollTop: ${this.scrollY}px`; 
-
+	
 	if(this.scrollY > 100){
 		topNavigation.classList.add('filled');
 	}else{
